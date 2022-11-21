@@ -2,7 +2,7 @@ import React from 'react'
 import '../static/css/Home.css'
 
 const Home = () => {
-    return (
+    return ( 
         <div>
             <div className='header'>
                 <h1> Gaby Vazquez </h1>
