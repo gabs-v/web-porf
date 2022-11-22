@@ -1,3 +1,66 @@
+body{
+    background-image: url('../img//AdobeStock_365888848.jpeg');
+    background-repeat: no-repeat;
+    background-repeat: repeat-y;
+    background-size: cover;
+    color: white;
+}
 .currentPage{
-    color: purple;
+    color: rgb(209, 89, 177);
+}
+.header{
+    display: flex;
+}
+h1{
+    width: 25%;
+    font-size: xx-large;
+    padding-left: 20px;
+}
+ul{
+    display: flex;
+    width: 75%;
+    justify-content: space-around;
+    list-style: none;
+}
+
+
+
+
+img{
+    border: 10px 10px 10px white;
+    border-style: solid;
+    
+}
+.intro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mainBody{
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
 }

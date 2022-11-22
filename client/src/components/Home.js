@@ -3,7 +3,7 @@ import '../static/css/Home.css'
 
 const Home = () => {
     return ( 
-        <div>
+        <div className='all'>
             <div className='header'>
                 <h1> Gaby Vazquez </h1>
                 <ul>
@@ -14,7 +14,15 @@ const Home = () => {
                 </ul>
             </div>
             <div className='mainBody'>
-                <img src={require('../static/img/F03C5768-F3A6-485F-91C6-C76AA6FDC293.jpg')} height={400} />
+                <div className='intro'>
+                    <img src={require('../static/img/IMG_1772.JPG')} height={400} alt='A picture of me and my kitty' />
+                    <h2>Hi, I'm Gaby! <br/> Software Developer </h2>
+                </div>
+                <div className='main'>
+                    <p>
+                        
+                    </p>
+                </div>
             </div>
         </div>
     )
