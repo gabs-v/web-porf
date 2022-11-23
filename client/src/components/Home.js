@@ -15,12 +15,12 @@ const Home = () => {
             </div>
             <div className='mainBody'>
                 <div className='intro'>
-                    <img src={require('../static/img/IMG_1772.JPG')} height={400} alt='A picture of me and my kitty' />
+                    <img src={require('../static/img/mainPicture.jpeg')} height={400} alt='A picture of me :)' />
                     <h2>Hi, I'm Gaby! <br/> Software Developer </h2>
                 </div>
                 <div className='main'>
                     <p>
-                        
+                        Hi, my name is Gabriela but feel free to call my Gaby!
                     </p>
                 </div>
             </div>

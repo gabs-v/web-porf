@@ -1,9 +1,7 @@
 body{
-    background-image: url('../img//AdobeStock_365888848.jpeg');
-    background-repeat: no-repeat;
-    background-repeat: repeat-y;
+    background-image: url('../img/AdobeStock_434852106.jpeg');
     background-size: cover;
-    color: white;
+    background-repeat: repeat-y;
 }
 .currentPage{
     color: rgb(209, 89, 177);
@@ -30,7 +28,6 @@ ul{
 img{
     border: 10px 10px 10px white;
     border-style: solid;
-    
 }
 .intro{
     display: flex;
