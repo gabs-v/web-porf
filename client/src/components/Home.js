@@ -35,6 +35,9 @@ const Home = () => {
                         those trouble makers. Other than that, I'd love to get to know a bit more about you so feel free to add me on any 
                         of my links or send me an email located in the "Contact" tab! Thanks for stopping by!
                     </p>
+                    <div className='photoGal'>
+
+                    </div>
                 </div>
             </div>
         </div>
