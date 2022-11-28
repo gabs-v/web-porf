@@ -1,12 +1,9 @@
 *{
-    font-family: paletino;
+    font-family: Playfair Display;
 }
 body{
     background-size: cover;
     background-repeat: repeat-y;
-}
-.currentPage{
-    color: rgb(209, 89, 177);
 }
 .header{
     display: flex;
@@ -22,49 +19,22 @@ ul{
     justify-content: space-around;
     list-style: none;
 }
-
-
-
-
-
-img{
-    border: 10px 10px 10px white;
-    border-style: solid;
-}
-.intro{
+.mainPage{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    height: 400px;
+}
+.leftArea{
+    width: 40%;
+    background-color: blue;
+    position: relative;
+}
+.image{
+    background-color: white;
+    position: absolute;
+}
+.rightArea{
+    width: 60%;
+    background-color: red;
 }
 
-.mainBody{
-    animation: fadeIn 3s;
-    -webkit-animation: fadeIn 3s;
-    -moz-animation: fadeIn 3s;
-    -o-animation: fadeIn 3s;
-    -ms-animation: fadeIn 3s;
-}
-p{
-    font-weight: 600;
-    font-size: x-large;
-}
-@keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-}
-@-moz-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-}
-@-webkit-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-}
-@-o-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-}
-@-ms-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-}
+
