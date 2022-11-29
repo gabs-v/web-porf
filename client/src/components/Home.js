@@ -15,7 +15,7 @@ const Home = () => {
             </div>
             <div className='mainPage'>
                 <div className='leftArea'>
-                    <image className='image'/>
+                    <div className='image'/>
                 </div>
                 <div className='rightArea'>
                     Hi, I'm <br/> Gaby Vazquez. <br/>
