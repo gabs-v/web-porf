@@ -15,11 +15,13 @@ const Home = () => {
             </div>
             <div className='mainPage'>
                 <div className='leftArea'>
-                    <div className='image'/>
+                    <img />
                 </div>
                 <div className='rightArea'>
-                    Hi, I'm <br/> Gaby Vazquez. <br/>
-                    Nice to meet you!
+                    <p className='intro'>
+                        Hi, I'm <br/> Gaby Vazquez. <br/>
+                        Nice to meet you!
+                    </p>
                 </div>
             </div>
         </div>
